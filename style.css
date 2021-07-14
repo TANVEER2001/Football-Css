@@ -1,45 +1,3 @@
-/*--------------------------------------------------------------
---------------------------- Media queriies--------------------- */
-
-
-@media only screen and (max-width: 688px) {
-   
-    .firsttop{display: flex;flex-direction: column;   
-        width: 1000px;
-        height: 695px;
-        } 
-        .headlinesP{
-            width: 500px;
-        }
-        }
-
-
-
-
-
-
-.secondtop{
-    display: flex;
-flex-direction: column;
-
-
-
-width: 330px;
-height: 4458px;
-left: 15px;
-top: 2236px;
-
-}
-   
-
-
-    }
-
-
-
-
-
-
 
 
 
@@ -53,6 +11,15 @@ body{
 --------Headlines------ */
 .firsttop{display: flex ;background-color: #2D25A0;padding: 125px 164px 122px 400px;margin-bottom: 70px;
       }
+.login{background-color:azure;position: relative;left: 1200px;top: -100px; ;height: 40px;width: 100px;font-size: 1em;
+
+
+}
+
+
+
+
+
 h1{ color: white;font-size: 2.2em;}
 .click{
     width: 168px;height: 44px;padding: 10px, 24px, 10px, 24px;font-size: 1.2em;color:white;background: #E02C6D;border-radius: 15px;
@@ -75,7 +42,7 @@ h1{ color: white;font-size: 2.2em;}
           background-color:; padding:15px ;margin: 10px;justify-content: center;border-radius: 5px;height: 470px;width:330px ;
              box-shadow: 10px 10px 20px  gray;       }
       h2{
-          font-size: 2.2em;text-align: center;color: rgb(68, 104, 104);margin-right: 300px;
+          font-size: 2.2em;text-align: center;color: rgb(68, 104, 104);margin-right: 350px;
       }
       h3 a{
           font-size: 1.5em;color:rgb(77, 136, 18);
@@ -99,3 +66,45 @@ h1{ color: white;font-size: 2.2em;}
 
       }                              
     
+
+
+
+
+      /*--------------------------------------------------------------
+--------------------------- Media queriies--------------------- */
+
+@media only screen and (max-width:688px) {
+    
+.secondtop{
+   display: grid;grid-template-columns: repeat(1,1fr);width: 600px;
+}
+.thumbnail img{width: 305px;
+    height: 256px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
